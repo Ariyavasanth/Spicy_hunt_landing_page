@@ -1,0 +1,205 @@
+*
+{
+    margin:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.landing
+{
+    background:url("file:///D:/spicy_hunt_project/chili_background.jpg");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+}
+
+.mainarea header
+{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.mainarea header a{
+    flex:3;
+}
+
+.mainarea header nav{
+    flex-basis: 20%;
+    display:flex;
+
+}
+
+.mainarea a{
+    color: rgb(255, 238, 0);
+    text-decoration:none;
+}
+
+.mainarea header .logo
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.mainarea header img
+{
+    margin-right:10px;
+    background-color:yellow;
+    border-radius:40%;
+}
+
+.maintext
+{
+    margin-top:150px; 
+    margin-left: 20px;
+}
+
+.maintext .tagline1
+{
+    font-size: 42px;
+    color: rgb(238, 45, 77);
+    margin-bottom:10px;
+}
+
+.maintext .tagline2
+{
+    color:yellow;
+    margin-bottom:10px;
+}
+
+.maintext .tagline3
+{
+    color: white;
+    margin-bottom:10px;
+}
+
+.maintext .btn button
+{
+    background-color: rgb(94, 223, 180);
+    border:none;
+    padding: 10px 20px;
+    color: white;
+    border-radius:5px;
+    width:21%;
+    transition:all 0.5s ease;
+}
+
+
+
+.maintext .btn button:hover
+{
+    background-color: rgb(97, 175, 149);
+    box-shadow:4px 8px 20px rgb(97, 175, 149);
+}
+
+.menu
+{
+    position: relative;
+    background:linear-gradient(to right,rgb(126, 126, 126),rgb(29, 29, 29));
+    height:100vh;
+    z-index:-1;
+}
+
+#heading
+{
+    background:linear-gradient(to right,rgb(126, 126, 126),rgb(29, 29, 29));
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+    color: rgb(238, 45, 77);
+}
+
+.menus
+{
+    background:linear-gradient(to right,rgb(126, 126, 126),rgb(29, 29, 29));
+    display: grid;
+    color: aliceblue;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+}
+
+
+
+.menus td{
+    color: aliceblue;
+}
+
+.menus th
+{
+    font-size: 28px;
+    color: rgb(120, 255, 210);
+}
+
+
+.menus table{
+    width: 100%;
+    padding: 10px;
+}
+
+
+.menus tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+   
+
+} 
+
+ .menus td:nth-child(1)
+{
+    flex:1;
+   
+}
+
+#logo
+{
+    margin-right: 5px;
+}
+
+
+
+#Locat
+{
+    background:linear-gradient(to right,rgb(126, 126, 126),rgb(29, 29, 29));
+    color:rgb(238, 45, 77);
+    text-align: center;
+    font-size: 32px;
+}
+.Location
+{
+    background:linear-gradient(to right,rgb(126, 126, 126),rgb(29, 29, 29));
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Location .addres{
+    flex:1;
+    color: aliceblue;
+    padding: 10px;
+    min-width: 150px;
+}
+
+.addres h2
+{
+    color:rgb(120, 255, 210);
+
+} 
+
+.copywrite
+{
+    background:linear-gradient(to right,rgb(126, 126, 126),rgb(29, 29, 29));
+    text-align: center;
+    color: white;
+    padding:10px;
+
+}
+
+ @media only screen and (max-width:400px)
+ {
+	 .btn button{
+		 width:100vh;
+	 }
+ }
